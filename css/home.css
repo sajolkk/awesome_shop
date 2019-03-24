@@ -1,0 +1,395 @@
+
+/*===================heading area start=============*/
+.heading-area{
+    background: #242424;
+    border-bottom: 2px solid red;
+}
+.heading-area h1{
+    display: inline-block;
+}
+.heading-area h1 a{
+    color: #ADB9BD;
+    font-style: italic;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar-form a{ 
+    color: #ADB9BD;
+    font-style: italic;
+    padding: 5px;
+    text-decoration: none;
+}
+.navbar-form a:hover{
+    color: #EEEEEE;    
+}
+.navbar-form input{
+    background: #242424;
+    border: 1px solid #ADB9BD;
+    padding: 6px 5px;
+    color: #ADB9BD;
+}
+
+.aborder{
+    border-left: 1px solid #ADB9BD;
+}
+.btn-serch{
+    background: #888784;
+    color: #ADB9BD;
+    border: 1px solid #ADB9BD;
+}
+
+/*===================heading area end=============*/
+
+
+
+
+/*===================menu area start=============*/
+.navbar{
+    margin: 0px;
+}
+.navbar-inverse{
+    border-radius: 0;
+    background: #090A0C;
+    border-bottom: 2px solid red;
+}
+.navbar-inverse ul a{
+    background: #090A0C;
+    border-right: 1px solid;
+    padding: 15px 21px;
+    font-size: 20px;
+
+}
+.navbar-inverse ul:hover{
+    background: red;
+}
+
+
+/*===================menu area end=============*/
+
+
+/*===================slider area start=============*/
+.slider-area{
+    background: #EEEBE6;
+}
+
+.section-padding{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.carousel-inner{
+    height: 400px;
+    margin: 20px 0;
+    background: gray;
+}
+.carousel-inner img{
+    width: 100%;
+}
+/*===================product view area start=============*/
+.productview-area{
+    background: #242424;
+    
+}
+.single-photo{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px
+}
+.single-photo-over:after{
+    content: "Women";
+    top: 45%;
+    right: 40%;
+    background: red;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+}
+
+.single-photo img{
+    height: auto;
+    width: auto;
+}
+
+.overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.87);
+    right: -100%;
+    top: 0%;
+    transition: 1s;
+    color: white;
+}
+.single-photo:hover .overly{
+    top:0;;
+    right: 0;
+    transition: 1s;
+     
+    
+}
+.single-photo:hover .single-photo-over{
+    display: none;
+ 
+}
+.overly h2{
+    padding: 20px;
+}
+.overly p{
+    padding: 10px 30px;
+}
+.btn-overly{
+    background: #000000;
+    padding: 10px;
+    border: none;
+}
+
+.btn-overly:hover{
+    color: darkslategray;
+}
+
+/*===================productview area end=============*/
+
+
+/*===================futured product area start=============*/
+.fretured-product-area{
+    background: #EBE7DF;
+}
+.single-product{
+    background: gray;
+    margin-bottom: 40px;
+    border: 1px solid white;
+}
+.single-product:hover{
+    border: 1px solid red;
+    transition: 2s;
+}
+.single-para{
+    background: green;
+    margin-left: 40px;
+}
+.single-para p{
+    font-size: 18px;
+    padding: 20px 10px;
+    color: white;
+    
+}
+.photo-bottom{
+    padding: 13px;
+}
+.single-product img{
+    padding: 0px 40px;
+    height: 200px;
+    width: 100%;
+}
+.btn-single-border{
+    border-top: 2px solid #EBE7DF;
+}
+.btn-single-pro{
+    padding: 10px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background: green;
+    border: none;
+    color: #252525;
+    margin-left:40px;
+    color: white;
+}
+.btn-single-pro:hover{
+    opacity: 0.6;
+    transition: 2s;
+}
+/*===================futured product area end=============*/
+
+
+
+/*===================blog news area start=============*/
+.blog-news-area{
+    background: #EBE7DF;
+}
+.single-blog{
+    background: #DFDBD4;
+    height: auto;
+    height: 335px;
+    margin-bottom: 20px;
+}
+
+.single-blog h2{
+    padding: 20px;
+}
+.single-blog h3{
+    font-size: 15px;
+    margin-left: 20px;
+    
+}
+.single-blog a{
+    text-decoration: none;
+}
+
+.single-blog h4{
+    font-size: 15px;
+    margin-left: 20px;
+    height: 35px;
+    text-align: center;
+    display: block;
+    background: #57C5A0;
+    color: white; 
+}
+.blog p{
+    margin-left: 20px;
+}
+.blog-p-border{
+    margin: 20px;
+}
+
+
+/*===================blog news area end=============*/
+
+
+/*=======catrosule area start=============*/
+
+.carosal-area{
+    background: black;
+    color: white;
+    text-align: center;
+}
+.single-one{
+    background: black;
+    padding: 20px;
+    
+}
+.single-one img{
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    padding: 10px;
+    background: red;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 0px;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: red;
+    font-size: 60px;
+    background: none;
+}
+.owl-theme .owl-nav .owl-prev  {
+    position: absolute;
+    left: -35px;
+    
+}
+.owl-theme .owl-nav .owl-next  {
+    position: absolute;
+    right: -35px;
+    
+}
+
+.owl-theme .owl-nav{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/*=======catrosule area end=============*/
+
+
+
+/*================counter area start================*/
+
+.counter-area{
+    position: relative;
+    overflow: hidden;
+    
+}
+.counter-prlx{
+    background: url(../img/img-2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    width: 100%;
+}
+.counter{
+    background: rgba(255, 215, 0, 0.38);
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+
+    
+    
+}
+
+
+/*================counter area end================*/
+
+
+
+/*===================tweets area start=============*/
+.tweets-area{
+    position: relative;
+    overflow: hidden;
+    background: url()
+}
+.tweets-prlx{
+    background: url(../img/paralax-bg.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.tweet{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ADB9BD;
+}
+.testimonials{
+    background: rgba(0, 128, 0, 0.29);
+    padding: 20px;
+    
+}
+
+.footer-area{
+    background: #2E2E2E;
+    color: #ADB9BD;
+}
+
+.social-media i{
+    background: #191919;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #ADB9BD;
+    margin-right: 10px;
+}
+
+
+
+
+

@@ -1,0 +1,250 @@
+
+/*===================heading area start=============*/
+.heading-area{
+    background: #242424;
+    border-bottom: 1px solid red;
+}
+.heading-area h1{
+    display: inline-block;
+}
+.heading-area h1 a{
+    color: #57C5A0;
+    font-style: italic;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar-form a{ 
+    color: #ADB9BD;
+    font-style: italic;
+    padding: 5px;
+    text-decoration: none;
+}
+.navbar-form a:hover{
+    color: #EEEEEE;    
+}
+.navbar-form input{
+    background: #242424;
+    border: 1px solid #ADB9BD;
+    padding: 6px 5px;
+    color: #ADB9BD;
+}
+
+.aborder{
+    border-left: 1px solid #ADB9BD;
+}
+.btn-serch{
+    background: #888784;
+    color: #ADB9BD;
+    border: 1px solid #ADB9BD;
+}
+
+/*===================heading area end=============*/
+
+
+
+
+/*===================menu area start=============*/
+.navbar-default{
+    border-radius: 0;
+    background: #090A0C;
+    border: 0px;
+}
+.navbar-default a{
+    background: #090A0C;
+    border-right: 1px solid;
+    font-size: 18px;
+
+}
+
+/*===================menu area end=============*/
+.slider-area{
+    height: 200px;
+}
+.carousel-inner{
+    height: 200px;
+}
+
+
+.section-padding{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*===================product view area start=============*/
+.productview-area{
+    background: #242424;
+    
+}
+.single-photo{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px
+}
+.single-photo img{
+    height: auto;
+    width: auto;
+}
+
+.overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.87);
+    right: -100%;
+    top: 0%;
+    transition: 1s;
+    color: white;
+    animation: bounceindown;
+}
+.single-photo:hover .overly{
+    top:0;;
+    right: 0;
+    transition: 1s;
+     
+    
+}
+.overly h2{
+    padding: 20px;
+}
+.overly p{
+    padding: 10px 30px;
+}
+.btn-overly{
+    background: #000000;
+    padding: 10px;
+    border: none;
+}
+
+.btn-overly:hover{
+    color: darkslategray;
+}
+
+/*===================productview area end=============*/
+
+
+/*===================futured product area start=============*/
+.fretured-product-area{
+    background: #EBE7DF;
+}
+.single-product{
+    background: white;
+    margin-bottom: 40px;
+}
+.single-para{
+    background: #57C5A0;
+    margin-left: 40px;
+}
+.single-para p{
+    font-size: 18px;
+    padding: 20px 10px;
+    color: white;
+    
+}
+.photo-bottom{
+    padding-bottom: 20px;
+}
+.single-product img{
+    padding: 0px 40px;
+    height: 200px;
+    width: 350px;
+}
+.btn-single-border{
+    border-top: 2px solid #EBE7DF;
+}
+.btn-single-pro{
+    padding: 10px 40px;
+    margin-top: 5%;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #252525;
+}
+
+/*===================futured product area end=============*/
+
+
+
+/*===================blog news area start=============*/
+.blog-news-area{
+    background: #EBE7DF;
+}
+.single-blog{
+    background: #DFDBD4;
+    height: auto;
+    height: 335px;
+    margin-bottom: 20px;
+}
+
+.single-blog h2{
+    padding: 20px;
+}
+.single-blog h3{
+    font-size: 15px;
+    margin-left: 20px;
+    
+}
+.single-blog a{
+    text-decoration: none;
+}
+
+.single-blog h4{
+    font-size: 15px;
+    margin-left: 20px;
+    height: 35px;
+    text-align: center;
+    display: block;
+    background: #57C5A0;
+    color: white; 
+}
+.blog p{
+    margin-left: 20px;
+}
+.blog-p-border{
+    margin: 20px;
+}
+
+
+/*===================blog news area end=============*/
+
+
+/*===================tweets area start=============*/
+.tweets-area{
+    background: #242424;
+}
+.tweet{
+    background: #242424;
+    color: #ADB9BD;
+}
+.testimonials{
+    background: #242424;
+    margin-right: 15px;
+    margin-top: 10px;
+    
+}
+
+.footer-area{
+    background: #2E2E2E;
+    color: #ADB9BD;
+}
+
+.social-media i{
+    background: #191919;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #ADB9BD;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

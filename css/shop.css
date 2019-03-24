@@ -1,0 +1,219 @@
+.section-padding{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*===================heading area start=============*/
+.heading-area{
+    background: #242424;
+    border-bottom: 2px solid red;
+}
+.heading-area h1{
+    display: inline-block;
+}
+.heading-area h1 a{
+    color: #ADB9BD;
+    font-style: italic;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar-form a{ 
+    color: #ADB9BD;
+    font-style: italic;
+    padding: 5px;
+    text-decoration: none;
+}
+.navbar-form a:hover{
+    color: #EEEEEE;    
+}
+.navbar-form input{
+    background: #242424;
+    border: 1px solid #ADB9BD;
+    padding: 6px 5px;
+    color: #ADB9BD;
+}
+
+.aborder{
+    border-left: 1px solid #ADB9BD;
+}
+.btn-serch{
+    background: #888784;
+    color: #ADB9BD;
+    border: 1px solid #ADB9BD;
+}
+
+/*===================heading area end=============*/
+
+
+
+
+/*===================menu area start=============*/
+.navbar{
+    margin: 0px;
+}
+.navbar-inverse{
+    border-radius: 0;
+    background: #090A0C;
+    border-bottom: 2px solid red;
+}
+.navbar-inverse ul a{
+    background: #090A0C;
+    border-right: 1px solid;
+    padding: 15px 21px;
+    font-size: 20px;
+
+}
+.navbar-inverse ul:hover{
+    background: red;
+}
+
+
+/*===================menu area end=============*/
+
+/*===================product view area start=============*/
+.productview-area{
+    background: #242424;
+    
+}
+
+.single-photo{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px
+}
+.single-photo img{
+    height: auto;
+    width: auto;
+}
+
+.overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.87);
+    right: -100%;
+    top: 0%;
+    color: white;
+}
+.single-photo:hover .overly{
+    top:0;;
+    right: 0;
+    transition: 1.50s;
+    transform: rotateY(360deg);
+     
+    
+}
+.overly h2{
+    padding: 20px;
+}
+.overly p{
+    padding: 10px 30px;
+}
+.btn-overly{
+    background: #000000;
+    padding: 10px;
+    border: none;
+}
+
+.btn-overly:hover{
+    color: darkslategray;
+}
+
+/*===================productview area end=============*/
+
+
+.shop-area{
+    background: white;
+    border: 2px solid gray;
+}
+.img-area{
+    width: 100%;
+    height: 400px;
+    background: red;
+    border: 2px solid gray;
+    float: left;
+    margin-bottom: 20px;
+}
+.img-area img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.order-area{
+    color: black;
+    border: 1px solid gray;
+    padding: 28px;
+    float: left;
+    margin-bottom: 20px;
+}
+.order-area h3,h4,h5{ 
+    display: inline-block;
+    padding-right: 18px;
+}
+
+.pincode{
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid blue;
+    color: blue;
+    width: 217px;
+    padding: 0 10px;
+}
+
+.btnadd{
+    border: 2px solid gray;
+    padding: 5px 14px;
+    font-size: x-large;
+    color: blueviolet;
+}
+
+.btnadd:hover{
+    color: black;
+}
+
+
+/*===================tweets area start=============*/
+.tweets-area{
+    position: relative;
+    overflow: hidden;
+    background: url()
+}
+.tweets-prlx{
+    background: url(../img/paralax-bg.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.tweet{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ADB9BD;
+}
+.testimonials{
+    background: rgba(0, 128, 0, 0.29);
+    padding: 20px;
+    
+}
+
+.footer-area{
+    background: #2E2E2E;
+    color: #ADB9BD;
+}
+
+.social-media i{
+    background: #191919;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #ADB9BD;
+    margin-right: 10px;
+}
+
+
+
